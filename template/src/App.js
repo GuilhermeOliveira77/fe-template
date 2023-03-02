@@ -4,6 +4,7 @@ import { Home, Products } from './pages/index'
 import { useMediaQuery } from "./hooks"
 import styles from './App.module.css'
 
+
 export const GlobalContext = createContext();
 
 export function App() {

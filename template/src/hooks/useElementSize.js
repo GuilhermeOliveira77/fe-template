@@ -25,3 +25,4 @@ const useElementSize = (ref, change, isDynamic) => {
 }
 
 export default useElementSize
+

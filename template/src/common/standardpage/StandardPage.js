@@ -3,6 +3,7 @@ import styles from './standardpage.module.css'
 import { GlobalContext } from '../../App.js'
 import { useRemainingSpace } from '../../hooks/index'
 
+
 function StandardPage({content}) {
   const { isSmallScreen } = useContext(GlobalContext)
   const [leftPos, setLeftPos] = useState()

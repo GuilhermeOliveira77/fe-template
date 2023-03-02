@@ -3,6 +3,7 @@ import { GlobalContext } from '../../App.js'
 import { SidebarContainer, SidebarButtons, NavButton, Icon, SidebarIcons } from './SideBarStyles'
 import { MdHome, MdRule, MdAutorenew, MdOutlineRemoveRedEye, MdOutlineQrCodeScanner, MdOutlineArchive, MdTrendingUp } from 'react-icons/md'
 
+
 function SideBar({setPage}) {
   const [show, setShow] = useState(false)
   const [current, setCurrent] = useState('home')

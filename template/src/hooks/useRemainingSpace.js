@@ -29,3 +29,4 @@ const useRemainingSpace = (ref, isDynamic) => {
 }
 
 export default useRemainingSpace
+
